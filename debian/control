@@ -1,0 +1,69 @@
+Source: kmediaplayer
+Section: libs
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
+ extra-cmake-modules, qtbase5-dev, libkf5guiaddons-dev,
+ libkf5configwidgets-dev, libkf5dbusaddons-dev, libkf5service-dev,
+ libkf5completion-dev, libkf5windowsystem-dev, libkf5itemviews-dev,
+ libkf5widgetsaddons-dev, libkf5iconthemes-dev, libkf5textwidgets-dev,
+ libkf5solid-dev, libkf5bookmarks-dev, libkf5notifications-dev,
+ kf5-kio-dev, libkf5i18n-dev, libkf5parts-dev, libkf5xmlgui-dev,
+ xauth, xvfb, libkf5auth-dev, libkf5coreaddons-dev, libkf5codecs-dev,
+ libkf5config-dev, libkf5kjs-dev, libkf5sonnet-dev,
+ libkf5globalaccel-dev, libkf5jobwidgets-dev
+Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/frameworks/kmediaplayer
+
+Package: libkf5mediaplayer-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5mediaplayer5 (= ${binary:Version}), ${misc:Depends}
+Description: development files for kmediaplayer
+ It provides all of the necessary media player operations,
+ and optionally provides the GUI to control them.
+ .
+ There are two servicetypes for Player:
+ KMediaPlayer/Player and KMediaPlayer/Engine.
+ KMediaPlayer/Player provides a widget (accessible
+ through view as well as XML GUI KActions.
+ KMediaPlayer/Engine omits the user interface facets,
+ for those who wish to provide their own interface.
+ .
+ Contains development files for kmediaplayer.
+ 
+Package: libkf5mediaplayer5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Plugin interface for media player features.
+ It provides all of the necessary media player operations,
+ and optionally provides the GUI to control them.
+ .
+ There are two servicetypes for Player:
+ KMediaPlayer/Player and KMediaPlayer/Engine.
+ KMediaPlayer/Player provides a widget (accessible
+ through view as well as XML GUI KActions.
+ KMediaPlayer/Engine omits the user interface facets,
+ for those who wish to provide their own interface. 
+
+Package: libkf5mediaplayer5-dbg
+Priority: extra
+Section: debug
+Architecture: any
+Multi-Arch: same
+Depends: libkf5mediaplayer5 (= ${binary:Version}), ${misc:Depends}
+Description: debug symbols for kmediaplayer
+ It provides all of the necessary media player operations,
+ and optionally provides the GUI to control them.
+ .
+ There are two servicetypes for Player:
+ KMediaPlayer/Player and KMediaPlayer/Engine.
+ KMediaPlayer/Player provides a widget (accessible
+ through view as well as XML GUI KActions.
+ KMediaPlayer/Engine omits the user interface facets,
+ for those who wish to provide their own interface.
+ .
+ Contains debug symbols for kmediaplayer.

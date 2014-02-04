@@ -1,0 +1,5 @@
+usr/include/KF5/
+usr/lib/*/libKF5MediaPlayer.so
+usr/lib/*/cmake/KF5MediaPlayer/
+usr/share/dbus-1/
+
