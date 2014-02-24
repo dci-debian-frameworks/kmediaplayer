@@ -1,3 +1,9 @@
+kmediaplayer (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream alpha release 
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 24 Feb 2014 10:05:20 -0800
+
 kmediaplayer (4.95.0-0ubuntu1) trusty; urgency=low
 
   [ Scarlett Clark ]
