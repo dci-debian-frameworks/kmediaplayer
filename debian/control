@@ -20,7 +20,7 @@ Homepage: https://projects.kde.org/projects/frameworks/kmediaplayer
 Package: libkf5mediaplayer-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5mediaplayer4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5mediaplayer5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for kmediaplayer
  It provides all of the necessary media player operations,
  and optionally provides the GUI to control them.
@@ -34,7 +34,7 @@ Description: development files for kmediaplayer
  .
  Contains development files for kmediaplayer.
  
-Package: libkf5mediaplayer4
+Package: libkf5mediaplayer5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -50,12 +50,12 @@ Description: Plugin interface for media player features.
  KMediaPlayer/Engine omits the user interface facets,
  for those who wish to provide their own interface. 
 
-Package: libkf5mediaplayer4-dbg
+Package: libkf5mediaplayer5-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5mediaplayer4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5mediaplayer5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kmediaplayer
  It provides all of the necessary media player operations,
  and optionally provides the GUI to control them.
