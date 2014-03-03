@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5MediaPlayer.so.4 libkf5mediaplayer4 #MINVER#
+libKF5MediaPlayer.so.5 libkf5mediaplayer5 #MINVER#
  _ZN12KMediaPlayer4View10hideButtonENS0_6ButtonE@Base 4.96.0
  _ZN12KMediaPlayer4View10setButtonsE6QFlagsINS0_6ButtonEE@Base 4.96.0
  _ZN12KMediaPlayer4View10showButtonENS0_6ButtonE@Base 4.96.0
