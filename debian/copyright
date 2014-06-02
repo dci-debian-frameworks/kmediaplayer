@@ -16,8 +16,8 @@ License: X11_License
  LGPL libraries (and potentially GPL ones), and so any binary package
  will be subject to those licenses.
 
-Files: debian/*       
-Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com> 	  
+Files: debian/*
+Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -34,4 +34,3 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
- 
