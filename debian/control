@@ -20,7 +20,8 @@ Homepage: https://projects.kde.org/projects/frameworks/kmediaplayer
 Package: libkf5mediaplayer-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5mediaplayer5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5mediaplayer5 (= ${binary:Version}), ${misc:Depends},
+ libkf5parts-dev
 Description: development files for kmediaplayer
  It provides all of the necessary media player operations,
  and optionally provides the GUI to control them.
