@@ -68,7 +68,6 @@ Description: Plugin interface for media player features.
  KMediaPlayer/Engine omits the user interface facets,
  for those who wish to provide their own interface.
 
-
 Package: libkf5mediaplayer5-dbg
 Priority: extra
 Section: debug
