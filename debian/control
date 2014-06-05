@@ -54,7 +54,6 @@ Description: Plugin interface for media player features.
  Contains development files for kmediaplayer.
 
 Package: libkf5mediaplayer5
-Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
