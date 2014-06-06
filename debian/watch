@@ -1,2 +1,2 @@
 version=3
-http://download.kde.org/unstable/frameworks/([\d\.]*)/kmediaplayer-(.*)\.tar\.xz
+http://download.kde.org/unstable/frameworks/([\d\.]*)/portingAids/kmediaplayer-(.*)\.tar\.xz
