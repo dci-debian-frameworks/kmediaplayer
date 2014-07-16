@@ -7,13 +7,10 @@ kmediaplayer (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix install file 
   * Update watch file to stable
   * Add Vcs
-
+  * Update copyright to match licensing to source 
 
   [ José Manuel Santamaría Lema ]
   * Create -data package to provide architecture independent files.
-
-  [ Scarlett Clark ]
-  * Update copyright to match licensing to source 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:39:03 +0200
 
@@ -23,7 +20,6 @@ kmediaplayer (4.100.0-0ubuntu1) utopic; urgency=medium
   * New upstream beta release
 
   [ Scarlett Clark ]
-  * Bump depends versions
   * Bump depends versions
 
   [ Harald Sitter ]
