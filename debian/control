@@ -75,6 +75,7 @@ Description: Plugin interface for media player features.
 
 Package: libkf5mediaplayer-data
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Breaks: libkf5mediaplayer5 (<= 5.0.0-0ubuntu1~ubuntu14.10~ppa3)
 Replaces: libkf5mediaplayer5 (<= 5.0.0-0ubuntu1~ubuntu14.10~ppa3)
