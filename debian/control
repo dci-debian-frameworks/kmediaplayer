@@ -36,7 +36,7 @@ Build-Depends: cmake,
                qtbase5-dev,
                xauth,
                xvfb
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kmediaplayer
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kmediaplayer.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kmediaplayer.git
