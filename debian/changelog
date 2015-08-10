@@ -1,8 +1,8 @@
-kmediaplayer (5.13.0-0ubuntu1) UNRELEASED; urgency=medium
+kmediaplayer (5.13.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Aug 2015 15:43:17 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:24:31 +0200
 
 kmediaplayer (5.12.0-0ubuntu1) wily; urgency=medium
 
