@@ -67,22 +67,3 @@ Description: Plugin interface for media player features.
  for those who wish to provide their own interface.
  .
  This package contains the data files.
-
-Package: libkf5mediaplayer5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5mediaplayer5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kmediaplayer
- It provides all of the necessary media player operations,
- and optionally provides the GUI to control them.
- .
- There are two servicetypes for Player:
- KMediaPlayer/Player and KMediaPlayer/Engine.
- KMediaPlayer/Player provides a widget (accessible
- through view as well as XML GUI KActions.
- KMediaPlayer/Engine omits the user interface facets,
- for those who wish to provide their own interface.
- .
- Contains debug symbols for kmediaplayer.
