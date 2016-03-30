@@ -1,3 +1,20 @@
+kmediaplayer (5.20.0-1~1.gbp0e065b) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @0e065b44c346bac1541c63b7c17d994c55fbdc51 **
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 10:39:31 +0200
+
 kmediaplayer (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
