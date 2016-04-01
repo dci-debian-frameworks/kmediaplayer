@@ -1,6 +1,6 @@
-kmediaplayer (5.20.0-1~1.gbp0e065b) UNRELEASED; urgency=medium
+kmediaplayer (5.20.0-1~2.gbpf8a065) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0e065b44c346bac1541c63b7c17d994c55fbdc51 **
+  ** SNAPSHOT build @f8a065d30867a2d0269dd3681e5d397a3f968d3f **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -12,8 +12,9 @@ kmediaplayer (5.20.0-1~1.gbp0e065b) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * Update acc test script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 10:39:31 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:39:14 +0200
 
 kmediaplayer (5.19.0-1) experimental; urgency=medium
 
