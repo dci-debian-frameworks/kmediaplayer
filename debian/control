@@ -5,23 +5,23 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.18.0~),
-               libkf5parts-dev (>= 5.18.0~),
-               libkf5xmlgui-dev (>= 5.18.0~),
+               extra-cmake-modules (>= 5.19.0~),
+               libkf5parts-dev (>= 5.19.0~),
+               libkf5xmlgui-dev (>= 5.19.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.4),
                xauth,
                xvfb
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kmediaplayer
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kmediaplayer.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kmediaplayer.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kmediaplayer.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kmediaplayer.git
 
 Package: libkf5mediaplayer-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5mediaplayer5 (= ${binary:Version}),
-         libkf5parts-dev (>= 5.16.0~),
+         libkf5parts-dev (>= 5.19.0~),
          ${misc:Depends}
 Description: Plugin interface for media player features.
  It provides all of the necessary media player operations,
@@ -67,22 +67,3 @@ Description: Plugin interface for media player features.
  for those who wish to provide their own interface.
  .
  This package contains the data files.
-
-Package: libkf5mediaplayer5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5mediaplayer5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kmediaplayer
- It provides all of the necessary media player operations,
- and optionally provides the GUI to control them.
- .
- There are two servicetypes for Player:
- KMediaPlayer/Player and KMediaPlayer/Engine.
- KMediaPlayer/Player provides a widget (accessible
- through view as well as XML GUI KActions.
- KMediaPlayer/Engine omits the user interface facets,
- for those who wish to provide their own interface.
- .
- Contains debug symbols for kmediaplayer.
