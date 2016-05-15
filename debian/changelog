@@ -1,6 +1,6 @@
-kmediaplayer (5.21.0-1~1.gbp11295a) UNRELEASED; urgency=medium
+kmediaplayer (5.22.0-1~1.gbp3f7c2e) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @11295a0b016a30b8eb743837c81a26a91805980c **
+  ** SNAPSHOT build @3f7c2ef6cf632f89f1da5936456d53b860f8a37b **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -9,6 +9,8 @@ kmediaplayer (5.21.0-1~1.gbp11295a) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
   [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
@@ -21,7 +23,7 @@ kmediaplayer (5.21.0-1~1.gbp11295a) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:39:27 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 16:39:17 +0200
 
 kmediaplayer (5.19.0-1) experimental; urgency=medium
 
