@@ -1,10 +1,11 @@
-kmediaplayer (5.24.0-1~1.gbp403d9b) UNRELEASED; urgency=medium
+kmediaplayer (5.25.0-1~1.gbpad3c63) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @403d9bbd821b9b7014c34cd65a6c4fa7892e76c1 **
+  ** SNAPSHOT build @ad3c63d97605704726ac38691b62c1c367ca1833 **
 
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 16:39:17 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 10:39:11 +0200
 
 kmediaplayer (5.23.0-1) unstable; urgency=medium
 
