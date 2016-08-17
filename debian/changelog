@@ -1,11 +1,17 @@
-kmediaplayer (5.25.0-1~1.gbpad3c63) UNRELEASED; urgency=medium
+kmediaplayer (5.25.0-1~2.gbp05cfe2) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @05cfe2a26ea6816241df9be8fca68df38ec7b804 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @ad3c63d97605704726ac38691b62c1c367ca1833 **
 
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 10:39:11 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:39:13 +0200
 
 kmediaplayer (5.23.0-1) unstable; urgency=medium
 
