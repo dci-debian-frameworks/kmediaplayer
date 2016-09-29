@@ -1,10 +1,12 @@
-kmediaplayer (5.26.0-1~1.gbpf24cca) UNRELEASED; urgency=medium
+kmediaplayer (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @f24cca682c1c32447bd2f3913193234b80779b14 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 16:39:43 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:03:42 +0200
 
 kmediaplayer (5.25.0-1) unstable; urgency=medium
 
