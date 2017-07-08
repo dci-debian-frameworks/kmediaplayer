@@ -31,7 +31,7 @@ Description: Plugin interface for media player features.
  for those who wish to provide their own interface.
  .
  Contains development files for kmediaplayer.
-Breaks: libkf5kdelibs4support-dev (<< 5.35)
+Breaks: libkf5kdelibs4support-dev (<< 5.36)
 
 Package: libkf5mediaplayer5
 Architecture: any
