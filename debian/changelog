@@ -1,8 +1,13 @@
-kmediaplayer (5.41.0-1~) UNRELEASED; urgency=medium
+kmediaplayer (5.41.0-1) experimental; urgency=medium
 
   * New upstream release (5.41.0).
+  * Bump Standards-Version to 4.1.2.
+  * Update build-deps and deps with the info from cmake
+  * Add missing libkf5kio-dev build dependency
+  * Bump group breaks (5.41)
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 14 Dec 2017 09:14:29 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:41:49 -0300
 
 kmediaplayer (5.41.0-0neon) xenial; urgency=medium
 
