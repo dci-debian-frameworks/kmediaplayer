@@ -5,10 +5,10 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 11~),
-               extra-cmake-modules (>= 5.41.0~),
+               extra-cmake-modules (>= 5.42.0~),
                libkf5kio-dev (>= 5.41.0~),
-               libkf5parts-dev (>= 5.41.0~),
-               libkf5xmlgui-dev (>= 5.41.0~),
+               libkf5parts-dev (>= 5.42.0~),
+               libkf5xmlgui-dev (>= 5.42.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
                xauth,
@@ -41,7 +41,7 @@ Package: libkf5mediaplayer-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5mediaplayer5 (= ${binary:Version}),
-         libkf5parts-dev (>= 5.41.0~),
+         libkf5parts-dev (>= 5.42.0~),
          ${misc:Depends},
 Description: Plugin interface for media player features.
  It provides all of the necessary media player operations,
